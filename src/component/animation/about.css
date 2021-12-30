@@ -1,0 +1,7 @@
+#carouselExampleIndicators .active {
+  background-color: aqua !important;
+  /* position: relative; */
+}
+.carousel-indicators {
+  /* bottom: 61px !important; */
+}
