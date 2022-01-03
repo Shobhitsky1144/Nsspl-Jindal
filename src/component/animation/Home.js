@@ -3,7 +3,7 @@ import "./style.css";
 
 import Train from "./new1.png";
 import HomeNew from "./new2.png";
-import Homes from "./balazs-busznyak-El5zuQAtfeo-unsplash.jpg";
+import Homes from "./balazs-busznyak-El5zuQAtfeo-unsp.jpg";
 import Bg from "./BlackBg.jpg";
 
 const Home = () => {
