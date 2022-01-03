@@ -1,12 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AboutImage from "./ab.png";
-import AboutBack1 from "./image_2021_12_28T06_51_43_859Z.png";
-import AboutBack2 from "./ryan-parker-seQbRNo90Xw-unsplash.jpg";
-import AboutBack3 from "./claudio-schwarz-V6xihVKUvqA-unsplash.jpg";
+// import AboutBack1 from "./image_2021_12_28T06_51_43_859Z.png";
+// import AboutBack2 from "./ryan-parker-seQbRNo90Xw-unsplash.jpg";
+// import AboutBack3 from "./claudio-schwarz-V6xihVKUvqA-unsplash.jpg";
 import "./style.css";
 import Homes from "./ab-1.png";
 import Train from "./ab-2.png";
-import "./style.css";
 import Bg from "./BlackBg.jpg";
 import HomeNew from "./ab-3.png";
 import Aos from "aos";
@@ -18,8 +17,28 @@ const About = () => {
   }, []);
   return (
     <div className="container-fluid   ">
+      <div className="row" style={{ position: "relative", zIndex: 9999 }}>
+        <div className="col">
+          <span
+            className=" text-center text-white"
+            style={{
+              position: "absolute",
+              top: "15rem",
+              left: "28rem",
+              zIndex: "9999",
+              fontSize: "5vmin",
+            }}
+            data-aos="slide-right"
+            data-aos-duration="1000"
+          >
+            Indian Engineering Excellence <br />
+            Global Perspective
+          </span>
+        </div>
+      </div>
       <div className="row">
         {/* animation */}
+
         <div
           className=""
           style={{
@@ -294,7 +313,7 @@ const About = () => {
       {/* second section */}
       <div
         className="row"
-        data-aos="fade-up"
+        data-aos="zoom-in"
         // data-aos-anchor-placement="top-center"
       >
         <div
@@ -316,7 +335,7 @@ const About = () => {
               width: "100vw",
               height: "100%",
               top: "0rem",
-              left: "-1.8rem",
+              left: "-0.7rem",
             }}
           >
             <div className="">

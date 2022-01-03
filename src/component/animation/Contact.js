@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ContactImage from "./Home-1.png";
+import ContactImage from "./new1.png";
 import EmailIcon from "../../Contact us screen icon and Bg image/Email 1x.png";
 import NameIcon from "../../Contact us screen icon and Bg image/Name 1x.png";
 import SubjectIcon from "../../Contact us screen icon and Bg image/Subject 1x.png";
@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000, offset: 300 });
+    Aos.init({ duration: 3000, offset: 300 });
   }, []);
   return (
     <>
@@ -164,8 +164,10 @@ const Contact = () => {
       {/* form */}
       <div
         className="contact"
-        style={{ marginTop: "12rem" }}
-        data-aos="flip-up"
+        style={{ marginTop: "9rem" }}
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
       >
         <h3
           className="text-center mb-3 "

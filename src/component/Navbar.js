@@ -5,6 +5,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import homeicon from "../ICONS/home_1x.png";
 import aboutUs from "../ICONS/About_us_small.png";
 import contactUs from "../ICONS/Contact_us_small.png";
+import "./animation/Navbar.css";
 
 const styles = makeStyles((theme) => ({
   navContainer: {
@@ -59,8 +60,8 @@ const Navbar = (props) => {
               class="navbar-nav me-auto mb-2 mb-lg-0"
               style={{ float: "right" }}
             >
-              <Link
-                to="/"
+              <a
+                href="/"
                 class="nav-item"
                 style={{
                   display: "flex",
@@ -76,10 +77,10 @@ const Navbar = (props) => {
                   alt="jindal image"
                   // className= {classes.imgContainer}
                 />
-                <a class="nav-link active" aria-current="page">
+                <a class="nav-link active" href="/" aria-current="page">
                   Home
                 </a>
-              </Link>
+              </a>
               <Link
                 to="/about"
                 class="nav-item"

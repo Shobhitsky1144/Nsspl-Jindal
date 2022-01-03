@@ -3,92 +3,26 @@ import "./style.css";
 
 import Train from "./new1.png";
 import HomeNew from "./new2.png";
-import Homes from "./new3.png";
+import Homes from "./balazs-busznyak-El5zuQAtfeo-unsplash.jpg";
+import Bg from "./BlackBg.jpg";
 
 const Home = () => {
   const [toggle, setToggle] = useState(false);
   const [toggleMode, setToggleMode] = useState(false);
   return (
     <>
-      {/* {!toggle ? (
-        <i
-          style={{
-            position: "absolute",
-            top: "22rem",
-            left: "80rem",
-            cursor: "pointer",
-            fontSize: "3.4rem",
-            color: "black",
-          }}
-          onClick={() => setToggle(!toggle)}
-          class="fas fa-arrow-circle-right"
-        ></i>
-      ) : (
-        <i
-          style={{
-            position: "absolute",
-            top: "22rem",
-            cursor: "pointer",
-            fontSize: "3.4rem",
-          }}
-          onClick={() => setToggle(!toggle)}
-          class="fas fa-arrow-circle-left"
-        ></i>
-      )}
-      {!toggle ? (
-        <div
-          className="fullImage img-responsive"
-          style={{
-            backgroundImage: "url(" + Homes1 + ")",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            display: "flex",
-            overflowX: "hidden",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <h1
-            className="text-white "
-            style={{
-              display: "flex",
-              fontFamily: "DM Sans",
-            }}
-          >
-            {" "}
-            Complete Freight car solution
-          </h1>
-          <span
-            class="h1 text-white"
-            style={{
-              position: "absolute",
-              // left: "-12rem",
-              top: "34rem",
-              fontSize: "2rem",
-              fontFamily: "DM Sans",
-            }}
-          >
-            INDIAN ENGINEERING EXCELLENCE
-            <br />
-          </span>
-          <span
-            className="text-white"
-            style={{
-              position: "absolute",
-              // left: "-12rem",
-              top: "36rem",
-              fontSize: "2rem",
-              fontFamily: "DM Sans ",
-            }}
-          >
-            Global Perspective
-          </span>
-        </div>
-      ) : ( */}
       <div
         id="carouselExampleIndicators"
         class="carousel slide "
         data-ride="carousel"
+        data-interval="3000"
+        style={{
+          backgroundImage: `url(${Bg})`,
+          height: "83vh",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          zIndex: "9999",
+        }}
       >
         <ol class="carousel-indicators">
           <li
@@ -113,7 +47,7 @@ const Home = () => {
             <img
               class="d-block w-100"
               src={Train}
-              style={{ height: "83vh" }}
+              style={{ height: "83vh", objectFit: "cover" }}
               alt="First slide"
               // className="img-responsive"
             />
@@ -356,7 +290,7 @@ const Home = () => {
       </div>
       {/* bg */}
       <footer className=" text-center">
-        2018 Jindal Rail Infrastructure Limited.All Rights Reserved.
+        2022 Jindal Rail Infrastructure Limited.All Rights Reserved.
       </footer>
     </>
   );
