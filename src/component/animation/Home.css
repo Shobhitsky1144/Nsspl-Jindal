@@ -1,0 +1,24 @@
+#demo .active {
+  background-color: aqua !important;
+  /* position: relative; */
+}
+#demo {
+  height: 85vh !important;
+}
+/* .carousel-indicators {
+  bottom: 3rem !important;
+}
+
+.carousel-inner {
+  height: 100% !important;
+}
+.myDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: red;
+  /* z-index: 9999; */
+/* bottom: 26rem; */
+/* flex-direction: column; */
+/* }  */

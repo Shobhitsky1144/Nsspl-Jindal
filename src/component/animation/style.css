@@ -1,8 +1,13 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
+#carouselExampleIndicators .active {
+  background-color: aqua !important;
+  /* position: relative; */
+}
 .icon-cards__item img {
-  width: 67rem !important;
+  width: 100% !important;
+  height: 82vmin !important;
 }
 .fullImage {
   height: 100vh;
@@ -11,7 +16,7 @@
 
 .icon-cards {
   position: relative;
-  width: 60vw;
+  width: 249vmin !important;
   height: 40vw;
   /* max-width: 380px; */
   max-height: 250px;
@@ -53,8 +58,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  width: 60vw;
-  height: 40vw;
+  /* width: 60vw; */
+  /* height: 40vw; */
   /* max-width: 380px; */
   max-height: 250px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);

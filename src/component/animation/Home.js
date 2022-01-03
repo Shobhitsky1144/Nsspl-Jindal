@@ -5,15 +5,6 @@ import Train from "./new1.png";
 import HomeNew from "./new2.png";
 import Homes from "./new3.png";
 
-import AboutBack1 from "./image_2021_12_28T06_51_43_859Z.png";
-import AboutBack2 from "./ryan-parker-seQbRNo90Xw-unsplash.jpg";
-import AboutBack3 from "./claudio-schwarz-V6xihVKUvqA-unsplash.jpg";
-
-import Homes1 from "./Home-1.png";
-// import Train from "./Home-2.png";
-// import HomeNew from "./Homenew.jpg";
-import Bg from "./BlackBg.jpg";
-
 const Home = () => {
   const [toggle, setToggle] = useState(false);
   const [toggleMode, setToggleMode] = useState(false);
@@ -44,7 +35,6 @@ const Home = () => {
           class="fas fa-arrow-circle-left"
         ></i>
       )}
-
       {!toggle ? (
         <div
           className="fullImage img-responsive"
@@ -68,7 +58,6 @@ const Home = () => {
             {" "}
             Complete Freight car solution
           </h1>
-
           <span
             class="h1 text-white"
             style={{

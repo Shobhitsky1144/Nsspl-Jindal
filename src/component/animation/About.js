@@ -11,7 +11,6 @@ import Bg from "./BlackBg.jpg";
 import HomeNew from "./ab-3.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./about.css";
 
 const About = () => {
   useEffect(() => {
@@ -32,7 +31,7 @@ const About = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <figure class="icon-cards " style={{ marginTop: "11rem" }}>
+          <figure class="icon-cards " style={{ margin: "27vmin 10vmin" }}>
             <div className="icon-cards__contentani">
               {/* {` ${
                 !toggleMode ? "icon-cards__content" : "icon-cards__contentani"
@@ -49,6 +48,7 @@ const About = () => {
                   src={Homes}
                   alt=""
                   style={{ border: "4px solid white" }}
+                  className="img-responsive"
                   // style={{ width: "83rem" }}
                   // onClick={() => setToggleMode(true)}
                   //   style={{ opacity: "0.9" }}
@@ -114,9 +114,10 @@ const About = () => {
                   style={{
                     width: "83rem",
                     // marginTop: "-4rem",
-                    height: "35rem",
+                    // height: "35rem",
                     border: "4px solid white",
                   }}
+                  className="img-responsive"
 
                   //   style={{ opacity: "0.9" }}
                 />
@@ -174,9 +175,10 @@ const About = () => {
                     // marginLeft: "2rem",
                     // marginTop: "-4rem",
                     border: "4px solid white",
-                    height: "35rem",
-                  }}
 
+                    // height: "35rem",
+                  }}
+                  className="img-responsive"
                   //   style={{ opacity: "0.9" }}
                 />
                 {/* <span
