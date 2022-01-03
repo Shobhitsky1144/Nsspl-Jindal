@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
-#carouselExampleIndicators .active {
+ol li.active {
   background-color: aqua !important;
   /* position: relative; */
 }
